@@ -11,7 +11,8 @@ import {
   SiGit,
   SiGithub,
   SiRender,
-  SiVercel
+  SiVercel,
+  SiRust
 } from "react-icons/si";
 
 interface Skill {
@@ -36,7 +37,8 @@ const Skills: React.FC = () => {
     { name: "Git", icon: SiGit, color: "text-red-500" },
     { name: "GitHub", icon: SiGithub, color: "text-white" },
     { name: "Render", icon: SiRender, color: "text-red-500" },
-    { name: "Vercel", icon: SiVercel, color: "text-white" }
+    { name: "Vercel", icon: SiVercel, color: "text-white" },
+    //{ name: "Rust", icon:SiRust, color:"text-grey-400"}
   ];
 
   const container = {

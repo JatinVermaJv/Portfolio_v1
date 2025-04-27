@@ -18,13 +18,13 @@ const Hero = () => {
       </div>
       
       <div className="flex flex-col items-center justify-start">
-      <div className='-pt-10 md:-pt-32 md:pb-10  flex items-center text-center'><Button/></div>
+      <div className='-pt-10 md:-pt-32 md:pb-10  flex items-center text-center'>{/*<Button/>*/}</div>
         <MeteorDemo />
       </div>
       <div className="flex flex-col-reverse md:flex-row justify-center md:gap-10 sm:py-4 items-center mt-8 md:mt-0">
         <div className="text-center md:text-left md:px-4 md:w-1/2">
-          <div className="text-sm px-2 sm:px-0 font-normal text-white dark:text-white"
-          >I&apos;m a final year student and an aspiring full-stack developer. I'm skilled in Next.js and specializing in full-stack development with TypeScript, React, Node.js, and MongoDB/PostgreSQL while leveraging Docker for containerization and WebSockets for real-time application with a passion for building creative and efficient real-world solutions.
+          <div className="text-sm px-4 py-3 sm:px-4 font-medium text-white bg-black bg-opacity-50 rounded-xl shadow-lg max-w-prose mx-auto md:mx-0">
+            I&apos;m a final year student and an aspiring full-stack developer. I'm skilled in Next.js and specializing in full-stack development with TypeScript, React, Node.js, and MongoDB/PostgreSQL while leveraging Docker for containerization and WebSockets for real-time application with a passion for building creative and efficient real-world solutions.
           </div>
         </div>
         <div className="mb-6 md:mb-0">
